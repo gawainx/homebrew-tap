@@ -7,7 +7,7 @@ cask "arxivarcher" do
   desc "An LLM empowered arXiv daily rss reader app."
   homepage "https://github.com/gawainx/ArxivDailyReader"
 
-  auto_updates true
+  auto_updates false
 
   app "arXivArcher.app"
 end
