@@ -1,8 +1,8 @@
 cask "arxivarcher" do
-  version "2.0.8"
-  sha256 "f404244b02812de1b8c64be3af72f2da5be3c9db2ec299e17dc539e0106cf7fd"
+  version "2.0.9"
+  sha256 "7c25195570128fbed9099f405a97b78b795252348857d6827f473b8dece1ff3d"
 
-  url "https://github.com/gawainx/ArxivDailyReader/releases/download/v#{version}/arXivArcher-#{version}-8269cf3b.dmg"
+  url "https://github.com/gawainx/ArxivDailyReader/releases/download/v#{version}/arXivArcher-#{version}-29fb5e66.dmg"
   name "arXivArcher"
   desc "An LLM empowered arXiv daily rss reader app."
   homepage "https://github.com/gawainx/ArxivDailyReader"
