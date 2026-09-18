@@ -4,10 +4,12 @@ cask "arxivarcher" do
 
   url "https://github.com/gawainx/ArxivDailyReader/releases/download/v#{version}/arXivArcher-#{version}-29fb5e66.dmg"
   name "arXivArcher"
-  desc "An LLM empowered arXiv daily rss reader app."
+  desc "LLM empowered arXiv daily RSS reader"
   homepage "https://github.com/gawainx/ArxivDailyReader"
 
   auto_updates false
+  depends_on arch: :arm64
+  depends_on macos: ">= 15.6"
 
   app "arXivArcher.app"
 end
