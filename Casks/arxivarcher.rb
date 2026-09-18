@@ -9,7 +9,7 @@ cask "arxivarcher" do
 
   auto_updates false
   depends_on arch: :arm64
-  depends_on macos: ">= 15.6"
+  depends_on macos: :sequoia
 
   app "arXivArcher.app"
 end
